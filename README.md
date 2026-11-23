@@ -4,6 +4,7 @@
 
 ![Status](https://img.shields.io/badge/status-phase%200%20setup-lightgrey)
 ![License](https://img.shields.io/badge/license-PolyForm%20Noncommercial-blue)
+![Backend CI](https://github.com/emeraldex/tutordesk/actions/workflows/backend-ci.yml/badge.svg)
 
 ## The problem
 <2–3 sentences. The tutor's pain today, in concrete terms:
@@ -34,7 +35,8 @@ _Coming in Phase 3._
 - **Mobile:** _coming later._
 
 ## Testing
-_Coming in Phase 5._
+Every pull request that touches `backend/` runs `./mvnw verify` in [GitHub Actions](.github/workflows/backend-ci.yml).
+A full test strategy is coming in Phase 5.
 
 ## Key decisions
 | ADR | Decision |
