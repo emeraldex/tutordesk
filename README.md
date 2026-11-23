@@ -25,7 +25,8 @@ language, not tech language.>
 ## Tech stack
 - **Backend:** Java 25 + Spring Boot 4.2, built with Maven ([ADR 0004](docs/adr/0004-backend-java-spring-boot.md), [ADR 0005](docs/adr/0005-maven-build-tool.md))
 - **Mobile:** _to be decided_
-- **Database / hosting:** _to be decided in Phase 3_
+- **Database:** PostgreSQL 18 with Flyway migrations ([ADR 0006](docs/adr/0006-postgresql-database.md))
+- **Hosting:** _to be decided in Phase 3_
 
 ## Architecture
 _Coming in Phase 3._
@@ -46,6 +47,7 @@ A full test strategy is coming in Phase 5.
 | [0003](docs/adr/0003-source-available-licence.md) | PolyForm Noncommercial licence |
 | [0004](docs/adr/0004-backend-java-spring-boot.md) | Backend in Java with Spring Boot |
 | [0005](docs/adr/0005-maven-build-tool.md) | Maven as the backend build tool |
+| [0006](docs/adr/0006-postgresql-database.md) | PostgreSQL as the database |
 
 ## Roadmap
 - [x] Phase 0 – Setup
