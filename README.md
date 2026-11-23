@@ -22,7 +22,9 @@ language, not tech language.>
 🚧 **Phase 0 – Setup.** See the [project board](<link>) and [roadmap](#roadmap).
 
 ## Tech stack
-_To be decided in Phase 3 (Design). See [ADRs](docs/adr/)._
+- **Backend:** Java 25 + Spring Boot ([ADR 0004](docs/adr/0004-backend-java-spring-boot.md))
+- **Mobile:** _to be decided_
+- **Database / hosting:** _to be decided in Phase 3_
 
 ## Architecture
 _Coming in Phase 3._
@@ -39,6 +41,7 @@ _Coming in Phase 5._
 | [0001](docs/adr/0001-monorepo.md) | Monorepo |
 | [0002](docs/adr/0002-trunk-based-development.md) | Trunk-based development |
 | [0003](docs/adr/0003-source-available-licence.md) | PolyForm Noncommercial licence |
+| [0004](docs/adr/0004-backend-java-spring-boot.md) | Backend in Java with Spring Boot |
 
 ## Roadmap
 - [x] Phase 0 – Setup
