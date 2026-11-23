@@ -22,7 +22,7 @@ language, not tech language.>
 🚧 **Phase 0 – Setup.** See the [project board](<link>) and [roadmap](#roadmap).
 
 ## Tech stack
-- **Backend:** Java 25 + Spring Boot ([ADR 0004](docs/adr/0004-backend-java-spring-boot.md))
+- **Backend:** Java 25 + Spring Boot 4.2, built with Maven ([ADR 0004](docs/adr/0004-backend-java-spring-boot.md), [ADR 0005](docs/adr/0005-maven-build-tool.md))
 - **Mobile:** _to be decided_
 - **Database / hosting:** _to be decided in Phase 3_
 
@@ -30,7 +30,8 @@ language, not tech language.>
 _Coming in Phase 3._
 
 ## Getting started
-_Coming in Phase 4._
+- **Backend:** see [backend/README.md](backend/README.md).
+- **Mobile:** _coming later._
 
 ## Testing
 _Coming in Phase 5._
@@ -42,6 +43,7 @@ _Coming in Phase 5._
 | [0002](docs/adr/0002-trunk-based-development.md) | Trunk-based development |
 | [0003](docs/adr/0003-source-available-licence.md) | PolyForm Noncommercial licence |
 | [0004](docs/adr/0004-backend-java-spring-boot.md) | Backend in Java with Spring Boot |
+| [0005](docs/adr/0005-maven-build-tool.md) | Maven as the backend build tool |
 
 ## Roadmap
 - [x] Phase 0 – Setup
